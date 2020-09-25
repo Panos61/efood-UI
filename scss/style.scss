@@ -1,0 +1,190 @@
+@import 'config';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $light-color;
+  font-family: $font-stack;
+}
+
+a {
+  text-decoration: none;
+}
+
+// Header Showcase Content
+
+.showcase {
+  height: 600px;
+
+  nav {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 0.4px;
+  }
+
+  li {
+    padding: 15px;
+
+    .language-select {
+      font-weight: bolder;
+    }
+
+    a {
+      margin: 0px 22px 10px 0;
+    }
+  }
+
+  a {
+    color: #ffffff;
+    font-size: small;
+  }
+
+  &-logo {
+    width: 12%;
+  }
+
+  &-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font-size: 4.7vh;
+      margin-top: 15vh;
+    }
+
+    p {
+      color: $small-color;
+      margin-top: 10px;
+    }
+
+    input {
+      margin-top: 5vh;
+      padding: 20px 30px;
+    }
+
+    .example {
+      margin-top: 10px;
+      font-size: 12px;
+    }
+
+    img {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 920px;
+      height: 82vh;
+      z-index: -10;
+    }
+  }
+}
+
+//  Shop-Showcase content
+.shop-showcase {
+  margin-top: 23vh;
+
+  span {
+    padding: 10px;
+    color: #00bc8b;
+    background-color: #d1eedd;
+  }
+
+  &-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+
+    .shop-card {
+      padding: 20px;
+
+      &-container {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin-top: 5px;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .title {
+          font-size: 1.6vh;
+          font-weight: bolder;
+        }
+
+        .price {
+          font-size: 1.3vh;
+          color: #453939;
+        }
+
+        .description {
+          font-size: 1.5vh;
+          color: $small-color;
+        }
+      }
+    }
+  }
+}
+
+.kitchen-showcase {
+  margin-top: 8vh;
+
+  &-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 95vh;
+      height: 60vh;
+    }
+
+    .kitchen-showcase-container {
+      width: 25vw;
+
+      h1 {
+        font-size: 4vh;
+      }
+
+      p {
+        color: $small-color;
+        font-size: 1.6vh;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      span {
+        font-size: 1.6vh;
+        font-weight: bold;
+      }
+
+      div {
+        color: $small-color;
+
+        a {
+          color: $small-color;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@import 'utilities';
+@import 'buttons';

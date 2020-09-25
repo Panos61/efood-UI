@@ -1,0 +1,246 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.showcase {
+  height: 600px;
+}
+
+.showcase nav {
+  margin-top: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.showcase ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  letter-spacing: 0.4px;
+}
+
+.showcase li {
+  padding: 15px;
+}
+
+.showcase li .language-select {
+  font-weight: bolder;
+}
+
+.showcase li a {
+  margin: 0px 22px 10px 0;
+}
+
+.showcase a {
+  color: #ffffff;
+  font-size: small;
+}
+
+.showcase-logo {
+  width: 12%;
+}
+
+.showcase-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.showcase-content h1 {
+  font-size: 4.7vh;
+  margin-top: 15vh;
+}
+
+.showcase-content p {
+  color: #9b9b9b;
+  margin-top: 10px;
+}
+
+.showcase-content input {
+  margin-top: 5vh;
+  padding: 20px 30px;
+}
+
+.showcase-content .example {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.showcase-content img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 920px;
+  height: 82vh;
+  z-index: -10;
+}
+
+.shop-showcase {
+  margin-top: 23vh;
+}
+
+.shop-showcase span {
+  padding: 10px;
+  color: #00bc8b;
+  background-color: #d1eedd;
+}
+
+.shop-showcase-grid {
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 10px;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+.shop-showcase-grid .shop-card {
+  padding: 20px;
+}
+
+.shop-showcase-grid .shop-card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  margin-top: 5px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.shop-showcase-grid .shop-card-container .title {
+  font-size: 1.6vh;
+  font-weight: bolder;
+}
+
+.shop-showcase-grid .shop-card-container .price {
+  font-size: 1.3vh;
+  color: #453939;
+}
+
+.shop-showcase-grid .shop-card-container .description {
+  font-size: 1.5vh;
+  color: #9b9b9b;
+}
+
+.kitchen-showcase {
+  margin-top: 8vh;
+}
+
+.kitchen-showcase-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.kitchen-showcase-content img {
+  width: 95vh;
+  height: 60vh;
+}
+
+.kitchen-showcase-content .kitchen-showcase-container {
+  width: 25vw;
+}
+
+.kitchen-showcase-content .kitchen-showcase-container h1 {
+  font-size: 4vh;
+}
+
+.kitchen-showcase-content .kitchen-showcase-container p {
+  color: #9b9b9b;
+  font-size: 1.6vh;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.kitchen-showcase-content .kitchen-showcase-container span {
+  font-size: 1.6vh;
+  font-weight: bold;
+}
+
+.kitchen-showcase-content .kitchen-showcase-container div {
+  color: #9b9b9b;
+}
+
+.kitchen-showcase-content .kitchen-showcase-container div a {
+  color: #9b9b9b;
+}
+
+.kitchen-showcase-content .kitchen-showcase-container div a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.btn-login {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 12px 40px;
+  margin: 10px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 1.7px solid #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-login:hover {
+  color: black;
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */

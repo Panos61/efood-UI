@@ -1,0 +1,22 @@
+%btn {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-login {
+  @extend %btn;
+  display: flex;
+  padding: 12px 40px;
+  margin: 10px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 1.7px solid #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-login:hover {
+  color: black;
+  background-color: #ffffff;
+}
