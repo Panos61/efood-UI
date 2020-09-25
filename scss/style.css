@@ -213,6 +213,45 @@ a {
   text-decoration: underline;
 }
 
+.new-stores-showcase {
+  margin-top: 10vh;
+  height: 300px;
+}
+
+.new-stores-showcase span {
+  padding: 10px;
+  color: #00bc8b;
+  background-color: #d1eedd;
+}
+
+.new-stores-showcase .new-stores-content {
+  margin-top: 4vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.new-stores-showcase .new-stores-content ul {
+  list-style: none;
+}
+
+.new-stores-showcase .new-stores-content a {
+  cursor: pointer;
+  color: #333333;
+}
+
+.new-stores-showcase .new-stores-content a:hover {
+  text-decoration: underline;
+}
+
 .container {
   max-width: 1300px;
   padding: 0 30px;

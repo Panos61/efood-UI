@@ -186,5 +186,38 @@ a {
   }
 }
 
+.new-stores-showcase {
+  margin-top: 10vh;
+  height: 300px;
+
+  span {
+    padding: 10px;
+    color: #00bc8b;
+    background-color: #d1eedd;
+  }
+
+  .new-stores-content {
+    margin-top: 4vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+      list-style: none;
+    }
+
+    a {
+      cursor: pointer;
+      color: #333333;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 @import 'utilities';
 @import 'buttons';
