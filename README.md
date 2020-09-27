@@ -3,7 +3,7 @@ Popular greek delivery store UI made with HTML and Sass.
 
 No CSS Frameworks - Only pure HTML and Sass.
 
-I haven't worked on mobile yet!!
+**I haven't worked on mobile yet!!**
 
 ![image](https://user-images.githubusercontent.com/53904733/94363775-5c31df00-00cd-11eb-96ef-bb471e56ec05.png)
 
