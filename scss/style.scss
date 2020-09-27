@@ -61,6 +61,13 @@ a {
     align-items: center;
     justify-content: center;
 
+    .input-card {
+      display: inline-block;
+      justify-content: space-between;
+      padding: 10px;
+      background-color: unset;
+    }
+
     h1 {
       font-size: 4.7vh;
       margin-top: 15vh;
@@ -73,7 +80,7 @@ a {
 
     input {
       margin-top: 5vh;
-      padding: 20px 30px;
+      padding: 20px 50px;
     }
 
     .example {
@@ -206,6 +213,9 @@ a {
 
     ul {
       list-style: none;
+      line-height: 3vh;
+      font-weight: 500;
+      font-size: smaller;
     }
 
     a {
@@ -215,6 +225,96 @@ a {
 
     a:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+.long-list-showcase {
+  height: 160vh;
+
+  p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vh;
+    color: $secondary-black-color;
+
+    ul {
+      list-style: none;
+      line-height: 2.3vh;
+    }
+
+    a {
+      color: $small-color;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  &-city-grid {
+    margin-top: 4vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vh;
+    color: $secondary-black-color;
+
+    ul {
+      list-style: none;
+      line-height: 3.2vh;
+    }
+
+    a {
+      color: #333333;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.app-store {
+  height: 50vh;
+  &-card {
+    margin-top: 4vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vh;
+    color: $secondary-black-color;
+
+    h1 {
+      font-size: x-large;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: larger;
+      color: $small-color;
+    }
+
+    .download-app-btn {
+      display: flex;
+
+      img {
+        margin-top: 2vh;
+        margin-inline: 5px;
+        cursor: pointer;
+      }
     }
   }
 }
@@ -264,6 +364,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2vh;
+    font-size: 12px;
+    color: #464c4c;
   }
 
   &-social {
@@ -276,7 +379,9 @@ a {
   }
 
   &-social {
-    color: gray;
+    i:hover {
+      color: gray;
+    }
   }
 }
 

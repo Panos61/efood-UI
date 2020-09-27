@@ -20,3 +20,16 @@
   color: black;
   background-color: #ffffff;
 }
+
+.btn-order {
+  @extend %btn;
+  padding: 18px 33px;
+  background-color: #ffc200;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.btn-order:hover {
+  background-color: #d6a606;
+}
