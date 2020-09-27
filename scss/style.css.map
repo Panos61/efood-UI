@@ -5,7 +5,8 @@
         "style.scss",
         "_config.scss",
         "_utilities.scss",
-        "_buttons.scss"
+        "_buttons.scss",
+        "_mobile.scss"
     ],
     "names": [],
     "file": "style.css"
